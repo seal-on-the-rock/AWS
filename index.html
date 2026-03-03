@@ -69,6 +69,27 @@ footer {
     font-size: 0.9rem;
     color: #64748b;
 }
+
+.contact-box {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.seal-img {
+    width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.seal-img:hover {
+    transform: scale(1.05);
+}
+
+.contact-links {
+    line-height: 1.8;
+}
 </style>
 </head>
 
@@ -136,27 +157,28 @@ footer {
 
 <h2>Contact</h2>
 
-<p>
-Email: oukaihyou@email.com<br/>
-Technical Blog: 
-<a href="https://seal-on-the-rock.github.io" target="_blank">
-seal-on-the-rock.github.io
-</a><br/>
+<div class="contact-box">
 
-GitHub: 
-<a href="https://github.com/seal-on-the-rock" target="_blank">
-github.com/seal-on-the-rock
-</a><br/>
+    <a href="https://seal-on-the-rock.github.io" target="_blank">
+        <img src="logo-blue.png" alt="Seal on the Rock Logo" class="seal-img">
+    </a>
 
-LinkedIn: 
-<a href="https://linkedin.com/in/wanghaibao" target="_blank">
-linkedin.com/in/wanghaibao
-</a>
-</p>
+    <div class="contact-links">
+        Email: oukaihyou@email.com<br/>
+        Technical Blog: 
+        <a href="https://seal-on-the-rock.github.io" target="_blank">
+            seal-on-the-rock.github.io
+        </a><br/>
+        GitHub: 
+        <a href="https://github.com/seal-on-the-rock" target="_blank">
+            github.com/seal-on-the-rock
+        </a><br/>
+        LinkedIn: 
+        <a href="https://linkedin.com/in/wanghaibao" target="_blank">
+            linkedin.com/in/wanghaibao
+        </a>
+    </div>
 
-<div style="text-align:center; margin-top:60px;">
-<img src="logo-blue.png" alt="Seal Logo" width="150">
-<p style="color:#64748b;">Seal on the Rock</p>
 </div>
     
 <footer>
